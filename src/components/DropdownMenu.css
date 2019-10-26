@@ -1,0 +1,9 @@
+#right-menu {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    background-color: white;
+    min-height: 100%;
+    width: 50%;
+}
