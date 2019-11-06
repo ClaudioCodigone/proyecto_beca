@@ -6,6 +6,7 @@ import LogInPage from './components/LogInPage';
 import CreateAccount from './components/CreateAccount';
 import Footer from './components/Footer';
 import LogIn from './components/LogIn';
+import Cities from './components/Cities';
 
 class IndexClass extends Component {
   render() {
@@ -16,6 +17,7 @@ class IndexClass extends Component {
           <Route exact path="/" component={App} />
           <Route exact path="/LogInPage" component={LogInPage} />
           <Route exact path="/CreateAccount" component={CreateAccount} />
+          <Route exact path="/Cities" component={Cities} />
           <Footer />
         </div>
       </BrowserRouter>

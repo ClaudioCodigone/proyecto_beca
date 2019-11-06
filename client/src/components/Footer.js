@@ -10,7 +10,7 @@ function Footer() {
       <div className="text-center fixed-bottom">
         <Link to="/">
           <Button
-            class="p-3 w-25 mt-5 m-auto d-block d-sm-block d-md-none"
+            class="p-3 w-25 m-auto d-block d-sm-block d-md-none"
             image={Home}
             alt="homeButton"
           />

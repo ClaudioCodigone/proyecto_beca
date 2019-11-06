@@ -14,14 +14,12 @@ function LogIn() {
       aria-haspopup="true"
       aria-expanded="false"></img>
     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <Router>
       <Link className="dropdown-item" to="/CreateAccount">
         Create Account
       </Link>
       <Link className="dropdown-item" to="/LogInPage">
         Log In
       </Link>
-      </Router>
     </div>
   </div>
   );
